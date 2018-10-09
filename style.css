@@ -1,0 +1,66 @@
+body {
+  background: #808080;
+}
+
+ol {
+  color: gold;
+  font-family: serif;
+}
+
+p {
+  color: gold;
+  font-family: serif;
+}
+
+h1 {
+  font-weight: lighter;
+  text-align: center;
+  color: darkgreen;
+  background-color: ;
+}
+
+a:link {
+  color: darkgreen; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.navbar { list-style-type: none; margin: 0; 
+  padding: 0; 
+  overflow: hidden; 
+  background-color: #333; 
+} 
+.navli { 
+  float: left; 
+} 
+
+li a { 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+} 
+
+/* Change the link color to #111 (black) on hover */ 
+li a:hover { 
+  background-color: #111; 
+}
